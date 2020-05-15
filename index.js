@@ -32,7 +32,7 @@ function deleteFromObjectByKey(object, key){
 
 
 
-
+//
 function destructivelyDeleteFromObjectByKey(object, key){
   
   var object = { object: key };
