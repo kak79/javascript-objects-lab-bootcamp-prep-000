@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 
-//
+//does not modify the original object, but rather returns a clone with the new data
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   
   object[key] = value;
